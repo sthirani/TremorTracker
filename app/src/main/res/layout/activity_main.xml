@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    android:paddingLeft="40dp"
+    android:paddingRight="40dp">
+
+
+    <EditText
+        android:id="@+id/EmailId"
+        android:layout_width="283dp"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/PasswordId"
+        android:layout_width="285dp"
+        android:layout_height="72dp"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="false" />
+
+    <Button
+        android:id="@+id/LoginId"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login" />
+
+    <Button
+        android:id="@+id/signoutid"
+        android:layout_width="262dp"
+        android:layout_height="wrap_content"
+        android:text="@string/signout" />
+
+    <Button
+        android:id="@+id/createid"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:text="@string/create" />
+</LinearLayout>

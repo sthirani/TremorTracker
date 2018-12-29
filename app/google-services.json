@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "854551664531",
+    "firebase_url": "https://tremor-tracker.firebaseio.com",
+    "project_id": "tremor-tracker",
+    "storage_bucket": "tremor-tracker.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854551664531:android:746eb68f39e66a55",
+        "android_client_info": {
+          "package_name": "tremor.tremortracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854551664531-bpgq5e5laggt0ndg4ii68peu3lu2nm2i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tremor.tremortracker",
+            "certificate_hash": "48254e63f47e085d5a414739db74bc9d2aae01f1"
+          }
+        },
+        {
+          "client_id": "854551664531-unbemnq2f8p9eapma93brqibter6asm0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBffQ6YtRAx0Mb2g1e8buBipi2x7x_ZLN4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854551664531-unbemnq2f8p9eapma93brqibter6asm0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
